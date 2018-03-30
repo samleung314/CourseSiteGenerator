@@ -1,0 +1,17 @@
+
+{
+    "navBar":"<a href=\"http://www.stonybrook.edu\"><img alt=\"Banner\" id=\"bannerImg\" class=\"sbu_navbar\" src=\"\"></a><a class=\"open_nav\" href=\"index.html\" id=\"home_link\">Home</a><a class=\"nav\" href=\"syllabus.html\" id=\"syllabus_link\">Syllabus</a><a class=\"nav\" href=\"schedule.html\" id=\"schedule_link\">Schedule</a><a class=\"nav\" href=\"hws.html\" id=\"hws_link\">HWs</a><a class=\"nav\" href=\"projects.html\" id=\"projects_link\">Projects</a>",
+    "subject":"CSE",
+    "number":"220",
+    "semester":"Spring",
+    "year":"2020",
+    "title":"Killer Class",
+    "instructor_name":"John Smith",
+    "instructor_home":"www.youtube.com",
+    "export_directory":"C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\work\\exportTest",
+    "template_directory":"C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\work\\template",
+    "left_footer":"file:C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\work\\brands\\leftFooter.jpg",
+    "right_footer":"file:C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\work\\brands\\rightFooter.png",
+    "banner":"file:C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\work\\brands\\banner.png",
+    "stylesheet":"C:\\Users\\samn1\\Desktop\\CourseSiteGenerator\\.\\work\\css\\sea_wolf.css"
+}

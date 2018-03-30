@@ -1,0 +1,21 @@
+
+{
+    "recitations":[
+        {
+            "section":"1",
+            "instructor":"Rob Kelly",
+            "time":"MWTF",
+            "location":"Javits",
+            "ta_1":"Bob",
+            "ta_2":"Kelly"
+        },
+        {
+            "section":"2",
+            "instructor":"John Smith",
+            "time":"MWF",
+            "location":"Frey",
+            "ta_1":"Sam",
+            "ta_2":"Bob"
+        }
+    ]
+}

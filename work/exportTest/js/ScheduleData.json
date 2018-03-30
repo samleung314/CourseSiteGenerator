@@ -1,0 +1,79 @@
+
+{
+    "startDate":"5/1/2017",
+    "endDate":"6/2/2017",
+    "startingMondayMonth":"5",
+    "startingMondayDay":"1",
+    "endingFridayMonth":"6",
+    "endingFridayDay":"2",
+    "holidays":[
+        {
+            "date":"5/16/2017",
+            "month":"5",
+            "day":"16",
+            "title":"Reference 1",
+            "topic":"Reference 1",
+            "link":"",
+            "time":"",
+            "criteria":""
+        },
+        {
+            "date":"5/2/2017",
+            "month":"5",
+            "day":"2",
+            "title":"holiday",
+            "topic":"holiday",
+            "link":"",
+            "time":"holiday",
+            "criteria":""
+        },
+        {
+            "date":"5/3/2017",
+            "month":"5",
+            "day":"3",
+            "title":"lec",
+            "topic":"lec",
+            "link":"",
+            "time":"lec",
+            "criteria":""
+        }
+    ],
+    "lectures":[
+    ],
+    "references":[
+    ],
+    "recitations":[
+        {
+            "date":"5/16/2017",
+            "month":"5",
+            "day":"16",
+            "title":"Recitation 1",
+            "topic":"GUIs",
+            "link":"",
+            "time":"@ 5pm",
+            "criteria":""
+        }
+    ],
+    "hws":[
+        {
+            "date":"5/16/2017",
+            "month":"5",
+            "day":"16",
+            "title":"Homework 1",
+            "topic":"Homework 1",
+            "link":"",
+            "time":"@ 1pm",
+            "criteria":""
+        },
+        {
+            "date":"5/19/2017",
+            "month":"5",
+            "day":"19",
+            "title":"hw2",
+            "topic":"hw2",
+            "link":"",
+            "time":"hw2",
+            "criteria":""
+        }
+    ]
+}

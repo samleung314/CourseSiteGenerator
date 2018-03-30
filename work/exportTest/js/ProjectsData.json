@@ -1,0 +1,26 @@
+
+{
+    "work":[
+        {
+            "semester":"Spring 2020",
+            "projects":[
+                {
+                    "name":"Team1",
+                    "students":[
+                        "Sam Leung",
+                        "Kelly Leung"
+                    ],
+                    "link":"https://www.youtube.com/"
+                },
+                {
+                    "name":"Team2",
+                    "students":[
+                        "Bob Marley",
+                        "Howard Brown"
+                    ],
+                    "link":"http://rogerdudler.github.io/git-guide/"
+                }
+            ]
+        }
+    ]
+}

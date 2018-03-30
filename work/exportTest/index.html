@@ -1,0 +1,77 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="description" content="CSE 308 - Software Engineering - Spring 2017 Home Page" />
+	<title id="title">Title</title>
+	<link rel="stylesheet" type="text/css" href="./css/course_homepage_layout.css" />
+	<link rel="stylesheet" type="text/css" href="./css/sea_wolf.css" />
+	<style>
+	span.student_info
+	{	
+		color:black;
+		font-size:11pt;
+		font-weight:bold;
+	}
+	span.course_list
+	{
+		color:black;
+		font-size:10pt;
+		font-weight:bold,italic;
+	}
+	</style>
+
+	<!-- LINK TO OUR JavaScript FILE AND JQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+	<script src="./js/TeamsBuilder.js"></script>
+	
+	<!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+	<script>
+	$(document).ready()
+	{
+		initProjects();
+		initTeamsAndStudents();
+	}
+	window.on
+	</script>
+</head>
+
+<body>
+
+	<div id="content">
+
+		<div id="navBar">NAVBAR</div>
+
+		<div id="banner">BANNER</div>
+
+		<div id="desc">
+
+
+			<h3>Team Programming</h3>
+
+			<p>One of the principles that will be emphasized this semester is <strong><em>team programming</em></strong>, which involves multiple programmers working collaboratively on the same task. This is an efffective technique for preventing stalls in the development process. While working on the <strong><em>team project</em></strong>, students will be encouraged to do all programming using this technique and in addition, for all project responsibilities, teams will designate <strong><em>backup</em></strong> developers who will aid in the completion of a task when needed and will take over a task when a developer is overloaded. Note that students are to work independently on the individual programming assignments as the start of the semester and that this requirement will be strictly enforced.<br /><br /></p>
+
+			<h3 id="teams">Teams</h3>
+			<p>Development teams, with roles, will be listed below as they are determined. Students may form their own teams if they wish. To do so, first choose an aptly named <a href="https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F">color</a> that suits your team. Choose one that is not copyrighted (not owned by crayon or paint companies, for example). Once your color (and thus team name) is selected, specify your team name and members, with roles, in the shared <a href="https://docs.google.com/spreadsheets/d/1Cf8cRfNoRjl7FLzo_Z9F8Wu2jJQdsQjwVF6Fcev2vec">CSE 308 Team</a> Google Sheet. Note that you should set the fill color for your cells to your team color, and make sure the text color is a color with enough contrast such that it is neat and legible. Should your team be missing a member or two, just place a '<strong>?</strong>' in the cell representing the position you're looking to fill.</p>
+			<p>Students not assigned to a team by the second lecture will be placed by the instructor. If you are to form your own team, I strongly advise forming teams around similar schedules. For example, past experience has shown that commuting students work well together because they may choose to meet and work off-campus rather than on. Note that should any changes to a team occur, the instructor must immediately be informed, as this is the only official teams list. As teams are formed they will be listed below, which also contains the current pool of students without a team.</p>
+
+			<div id="teams_tables">
+		    <!-- JavaScript WILL FILL THIS IN WITH DATA
+		    PULLED FROM A JSon FILE -->
+		</div>
+		<br /><br />
+
+		<br clear="all" />
+
+		<hr />
+
+		<a href="http://www.stonybrook.edu"><img alt="SBU" class="sunysb" style="float:left" id="leftFoot"></a>
+					<a href="http://www.cs.stonybrook.edu"><img alt="CS" style="float:right" id="rightFoot"></a>
+
+		<p style="font-size:9pt; text-align:center;">Web page created and maintained<br>
+						by <span><a id="instructor_link" href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a></span>
+					</p>
+		</div>
+	</div>
+</body>
+</html>

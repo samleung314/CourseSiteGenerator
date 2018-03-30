@@ -1,0 +1,68 @@
+<html>
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title id="title">Title</title>
+
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<link href="./css/course_homepage_layout.css" rel="stylesheet" type="text/css">
+		<link href="./css/sea_wolf.css" rel="stylesheet" type="text/css">
+
+		<!-- LINK TO OUR JavaScript FILE AND JQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="./js/HWsBuilder.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+
+		<!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+		<script>
+		$(document).ready()
+		{
+			initProjects();
+			initHWs();
+		}
+		</script>
+	</head>
+
+	<body>
+		<div id="content">
+
+			<div id="navBar">NAVBAR</div>
+
+			<div id="banner">
+				<!-- BANNER NEEDS TO BE SET -->
+				CSE 219 - Spring 2017 - 02<br />Computer Science III
+			</div>
+
+			<div id="desc">
+				<h3>Homework Assignments</h3>
+
+				<p>Note that the grading criteria for all homework assignments will be posted here along with links to homework instructions.</p>
+
+				<table class="hws">
+					<tbody id="hws">
+						<tr class="hws" style="background-color:rgb(235,215,215)">
+							<th class="hws">Homework</th>
+							<th class="hws">Due Date</th>
+							<th class="hws">Grading Criteria</th>
+						</tr>
+						
+						<!-- THIS WILL BE FILLED IN BY JAVASCRIPT -->
+					</tbody>
+				</table>
+				<br />
+				<hr />
+
+				<a href="http://www.stonybrook.edu"><img alt="SBU" class="sunysb" style="float:left" id="leftFoot"></a>
+					<a href="http://www.cs.stonybrook.edu"><img alt="CS" style="float:right" id="rightFoot"></a>
+
+				<p style="font-size:9pt; text-align:center;">Web page created and maintained<br />
+					by <span id="instructor_link"><a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a></span>
+					<br />
+					<br />
+					<br />
+					<br />
+				</p>
+			</div>
+		</div>
+	</body>
+	</html>
